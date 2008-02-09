@@ -1,0 +1,122 @@
+#bbs { 
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+#bbs_headline {
+	background: #ccffcc;
+	width: 90%;
+	text-align: left;
+	border-left:1px solid #666;
+	border-right:1px solid #666;
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bbs_thread_title {
+	font: bold;
+}
+.bbs_thread {
+	background: #efefef;
+	width: 97%;
+	text-align: left;
+	font: normal;
+	
+	word-break:break-all;  /* IEÂÐºö */
+	
+	overflow: hidden;  /* MozillaÂÐºö */
+
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	
+	margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+
+	outline: midium solid #efefef;
+}
+.bbs_subject {
+	font: bold;
+	color: red;
+	font-size: large;
+}
+.bbs_comment_head {
+	margin-left: 30px;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.bbs_name {
+	font: bold;
+	color: forestgreen;
+}
+.bbs_id {
+    font-size: 7pt;
+    margin-left: 5px;
+}
+.bbs_date {
+	margin-left: 20px;
+	font: normal;
+	font-size: xx-small;
+}
+.bbs_comment {
+	margin-bottom: 15px;
+	margin-left: 60px;
+	font: normal;
+	width: 90%;
+    /* overflow: scroll; */
+    padding-right: 5px;
+
+	word-break: break-all;
+}
+textarea {
+    margin: 0px;
+}
+.bbs_res_form {
+	width: 90%;
+	text-align: left;
+    margin-bottom: 0px;
+	margin-left: 30px;
+}
+.bbs_threadfoot {
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+#bbs_newThread_form {
+	width: 90%;
+	margin-top: 30px;
+    padding: 8px;
+    margin-right: auto;
+    margin-left: auto;
+	text-align: left;
+	border-left:1px solid #666;
+	border-right:1px solid #666;
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+}
+#bbs_delete table
+{
+  border: 1px solid black;
+}
+#bbs_error {
+    color: red;
+    font-size: 13pt;
+    text-align: center;
+    border: 2px solid forestgreen;
+    padding: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bbs_license {
+	width: 90%;
+	margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+	text-align: right;
+}
